@@ -4,7 +4,7 @@ from dash import Dash, html
 
 # Escribe tu nombre dentro de las comillas
 
-mi_nombre = 'Juan'
+mi_nombre = 'Juan Antonio'
 
 # Guarda el fichero presionando ctrl + S
 
