@@ -31,7 +31,6 @@ jobs:
           region: ${{ vars.AWS_REGION }}
           cpu : 1
           memory : 2
-          wait-for-service-stability-seconds: 60
       
       - name: App Runner output
         run: echo "App runner output ${{ steps.deploy-apprunner.outputs.service-id }}" 
